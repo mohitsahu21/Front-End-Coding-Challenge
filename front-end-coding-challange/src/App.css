@@ -1,0 +1,45 @@
+
+
+.container{
+  max-width: 992px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px;
+  
+  
+}
+.main-heading{
+  margin-bottom: 30px;
+}
+.mb-3{
+  margin-bottom: 30px !important;
+  margin: 0 auto;
+ 
+}
+
+.card{
+  max-width: 90% !important;
+  padding-bottom: 20px;
+}
+
+.btn.btn-secondary{
+     float: left;
+     cursor: auto;
+     margin-top: 5px;
+     
+}
+.btn.btn-secondary.second{
+  margin-left: 10px;
+}
+.card-title{
+  float: left;
+}
+.card-text{
+  float: left;
+}
+.text{
+ float: left;
+ padding: 10px;
+ margin-left: 20px;
+}
