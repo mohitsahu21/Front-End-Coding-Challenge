@@ -3,8 +3,11 @@ import './App.css';
 import { useSelector } from "react-redux";
 import Pagination from "./Pagination";
 
+ // this component is use for display repository card.
 
 export default function Repository(){
+
+    // we store the repo data in data variable.
     const data = useSelector((state)=>{
          return state.repos;
     });
