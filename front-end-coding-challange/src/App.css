@@ -20,7 +20,7 @@
 
 .card{
   max-width: 90% !important;
-  padding-bottom: 20px;
+ 
 }
 
 .btn.btn-secondary{
@@ -33,13 +33,22 @@
   margin-left: 10px;
 }
 .card-title{
-  float: left;
+  
+  text-align: left;
+  color: #1e3799;
+  
 }
 .card-text{
-  float: left;
+  text-align: start;
+  
 }
 .text{
  float: left;
  padding: 10px;
  margin-left: 20px;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+
 }
