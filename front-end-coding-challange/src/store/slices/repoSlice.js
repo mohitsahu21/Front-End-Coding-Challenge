@@ -6,7 +6,7 @@ const repoSlice = createSlice({
     initialState:[],
     reducers:{
         addRepo(state,action){
-            state.push(action.payload);
+            state.splice(0,30,action.payload);
         },
     }
 }) ;
